@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+
+}
+
+.container {
+    width: 45%;
+    height: 60vh;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #494069;
+    box-shadow: rgba(247, 221, 221, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-weight: 500;
+    padding: 10px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.display #screen {
+    width: 65%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: #ffffff;
+    padding-right: .9rem;
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.display #screen:hover {
+    box-shadow: inset 5px 5px 8px #434379, inset -5px -5px 8px #434379;
+    background: transparent;
+    color: #fff;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: .1s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 5px 5px 8px #434379, inset -5px -5px 8px #434379;
+    background: transparent;
+    color: #fff;
+}
+
+#eval {
+    background: #aa772a;
+    color: #fff;
+    font-weight: bold;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px #c49c60, inset -5px -5px 8px #c49c60;
+    background: #aa772a;
+    color: #fff;
+        
+}
+
+@media (max-width:967px) {
+    .container {
+        width: 70%;
+        height: 60vh;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 90%;
+        height: 70vh;
+    }
+
+    .display #screen {
+        width: 65%;
+        height: 70px;
+    }
+
+    .btns .row button {
+        width: 60px;
+        height: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .container {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .display #screen {
+        width: 90%;
+        height: 70px;
+    }
+
+    .btns .row button {
+        width: 50px;
+        height: 40px;
+    }
+}
