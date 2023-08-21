@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 45%;
-    height: 60vh;
+    height: 70vh;
     padding: 10px;
     background: transparent;
     text-align: center;
@@ -98,7 +98,7 @@ h1 {
     }
 }
 
-@media (max-width:720px) {
+@media (max-width:767px) {
     .container {
         width: 90%;
         height: 70vh;
@@ -115,7 +115,7 @@ h1 {
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:500px) {
     .container {
         width: 90%;
         height: 60vh;
@@ -128,6 +128,22 @@ h1 {
 
     .btns .row button {
         width: 50px;
+        height: 40px;
+    }
+}
+@media (max-width:375px) {
+    .container {
+        width: 90%;
+        height: 65vh;
+    }
+
+    .display #screen {
+        width: 90%;
+        height: 70px;
+    }
+
+    .btns .row button {
+        width: 30px;
         height: 40px;
     }
 }
