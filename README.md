@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 align="center">Travel - Travel & Tour Website</h1>
+  <h1 align="center">Scientific Calculator</h1>
 
 
  Responsive for all devices, built using HTML, CSS, and JavaScript.
