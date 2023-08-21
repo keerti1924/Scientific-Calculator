@@ -98,7 +98,7 @@ h1 {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:720px) {
     .container {
         width: 90%;
         height: 70vh;
@@ -115,7 +115,7 @@ h1 {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:480px) {
     .container {
         width: 90%;
         height: 60vh;
