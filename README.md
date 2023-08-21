@@ -5,7 +5,7 @@
 
  Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://github.com/keerti1924/Scientific-Calculator/"><strong>➥ Live Demo</strong></a>
+  <a href="https://keerti1924.github.io/Scientific-Calculator/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
